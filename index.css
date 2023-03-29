@@ -1,0 +1,43 @@
+body{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.sbox {
+    border: 2px solid black;
+    height: auto;
+    width: 250px;
+    margin: 10px;
+}
+
+#main-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    padding: 10px;
+    margin: 20px;
+}
+
+#content {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    width: 100%;
+}
+
+#header {
+    text-align: center;
+}
+
+input[type=text]{
+    height: 35px;
+    width: 250px;
+    border-radius: 3px;
+    font-size: larger;
+}
+
+#searchBtn{
+    height: 40px;
+    width: 80px;
+    padding: 5px;
+    font-size: larger;
+}
